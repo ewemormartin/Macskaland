@@ -1,0 +1,93 @@
+.tarolo {
+
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.fejlec li {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(236, 86, 16);
+}
+
+.fejlec {
+    height: 100vh;
+    color: white;
+    background-image: url(kepek/hero.jpg);
+    background-size: cover;
+}
+
+.fejlec ul {
+    list-style: none;
+}
+
+#cica a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#cica {
+    width: 35%;
+    padding: 30%;
+}
+
+.masodik{
+    background-color: rgb(37, 35, 35);
+    padding: 0px;
+    color: white;
+}
+.masodik ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    padding: 10px;
+
+}
+.masodik a {
+    text-decoration: none;
+    color: white;
+}
+.masodik li {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(236, 86, 16);
+}
+.masodik ul {
+    list-style: none;
+}
+.masodik h1{
+    margin: auto;
+}
+.pic img{
+    width: 100%;
+}
+.kepek{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+}
+.pic{
+    overflow: hidden;
+}
