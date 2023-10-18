@@ -1,3 +1,7 @@
+body{
+    background-color: bisque;
+}
+
 .tarolo {
 
     width: 80%;
@@ -36,6 +40,8 @@
 
 .fejlec ul {
     list-style: none;
+    margin: auto;
+    padding-top: 50px;
 }
 
 #cica a {
@@ -75,19 +81,53 @@
 }
 .masodik ul {
     list-style: none;
+    margin: auto;
+    
 }
 .masodik h1{
     margin: auto;
 }
 .pic img{
-    width: 100%;
+    width: 80%;
+    border-radius: 15px;
 }
 .kepek{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 100px 100px;
-    gap: 10px;
+    grid-template-rows: 400px;
+    gap: 0px;
 }
-.pic{
-    overflow: hidden;
+
+.harmadik{
+    background-color: rgb(37, 35, 35);
+    padding: 0px;
+    color: white;
+    margin: auto;
+}
+.harmadik ul{
+    text-align: left;
+}
+.harmadik h1 {
+    margin: auto;
+}
+.negyedik{
+    background-color: rgb(37, 35, 35);
+    padding: 0px;
+    color: white;
+    margin: auto;
+}
+.negyedik h1 {
+    margin: auto;
+}
+.negyedik ul{
+    text-align: left;
+}
+.otodik{
+    background-color: rgb(37, 35, 35);
+    padding: 0px;
+    color: white;
+    margin: auto;
+}
+.otodik h1 {
+    margin: auto;
 }
